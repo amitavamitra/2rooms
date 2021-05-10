@@ -5,5 +5,16 @@ first room broadcasts information as object
 {
 material:material, 
 description: description,
-unit: unit
+unit: unit,
+mattype: mattype
 }
+
+Using this broadcast the second room creates teh bill of materials.
+
+A simple example of collaborating process in a session.
+
+The process needs three rooms
+
+1. main - room where everyone joins at first
+2. mat  - room where products are created
+3. bom - room where bill of material is created
